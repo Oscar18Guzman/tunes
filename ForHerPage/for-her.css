@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+color: #ffffff;
+text-align: center;
+}
+
+body {
+color: #000000;
+text-align: center;
+}
+
+iframe {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+
+
+#right-side {
+  position: absolute;
+  right: 0px;
+  height: 40rem;
+  width: 70%;
+}
+#for-her-image {
+  height: 105px;
+  width: 108px;
+  border-radius: 100px;
+  padding: 10px;
+  
+}
+img:hover {  
+  animation-name: floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  transition: 0s;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 20px); }
+  to   { transform: translate(0, -0px); }
+
+}

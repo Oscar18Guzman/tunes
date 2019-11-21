@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(360deg, rgb(202, 200, 200), rgb(0, 0, 0));
+  background-size: cover, contain;
+  
+}
+.snip1361 {
+  font-family: 'Quattrocento', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  min-width: 230px;
+  max-width: 315px;
+  color: #141414;
+  text-align: left;
+  line-height: 1em;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.snip1361 * {
+  width: 300px;
+  height: 300px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  height: 230px;
+}
+.snip1361 figcaption {
+  position: absolute;
+  transform: translateY(80px);
+  width: 100%;
+  background-color: #dddbdbb6;
+}
+.snip1361 figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #dddbdbb6 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #dddbdbb6 100%);
+}
+.snip1361 h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.snip1361 p {
+  font-size: 75%;
+  margin-bottom: -10px;
+  text-decoration: underline;
+}
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  transform: translateY(-90px);
+}
